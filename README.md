@@ -1,6 +1,8 @@
 # GaitCSV: Causal Intervention for Sparse-View Gait Recognition
 ## CIML
 The training code is based on [OpenGait](https://github.com/ShiqiYu/OpenGait).
+The code here should be added properly into OpenGait.
+CIML.py is in _losses_ folder, and gaitcsv.py is in _models_ folder, _etc._
 
 The causal intervention triplet loss is in CIML.py. 
 It finds anchor, positive, and negative samples based on view labels.
